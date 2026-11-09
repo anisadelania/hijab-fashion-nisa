@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hijab Fashion By Nisa</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #633d50;
+}
+
+.kontainer {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header {
+    background-color: #c75d91;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.konten {
+    display: flex;
+    gap: 12px;
+}
+
+.kiri {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.aside {
+    background-color: #f3b5d0;
+    padding: 60px;
+    color: #713b58;
+}
+
+.nav {
+    background-color: #e58db5;
+    padding: 100px 20px;
+    flex: 1;
+    text-align: justify;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    background-color: #f5c6dc;
+    color:deeppink;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.nav a:hover {
+    background-color: #f8d1e0;
+    color: white;
+}
+
+.main {
+    width: 60%;
+    background-color: #fff7fa;
+    padding: 25px;
+}
+
+.main h2 {
+    color: #c75d91;
+}
+
+.berita {
+    background-color: #fce1ec;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.berita h3 {
+    color: #a84676;
+}
+
+.berita p {
+    color: #704d60;
+    line-height: 1.6;
+}
+
+.tanggal {
+    color: #c75d91 !important;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: #c75d91;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+p.gambar {
+    text-align: center;
+}
+
+@media (max-width: 425px) {
+
+    body {
+        padding: 8px;
+    }
+
+    .konten {
+        flex-direction: column;
+    }
+
+    .kiri {
+        width: 100%;
+    }
+
+    .aside {
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .nav h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav a {
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .main {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="kontainer">
+    <header class="header" id="home">
+        <h1>♡ HIJAB FASHION BY NISA</h1>
+        <p style="text-align: center;">Find Your Style, Show Your Beauty</p>
+    </header>
+
+    <div class="konten">
+        <div class="kiri">
+
+            <aside class="aside">
+                <h3>Kategori</h3>
+                <p>Hijab Fashion</p>
+                <p>Hijab Trends</p>
+                <p>New Collection</p>
+                <p>Fashion Tips</p>
+            </aside>
+            <nav class="nav">
+            <h3>Navigation</h3>
+            <a href="#home">Home</a>
+            <a href="#latest-news">Latest News</a>
+            <a href="#popular">Popular</a>
+            <a href="#about">About Us</a>
+            </nav>
+
+        </div>
+        <main class="main" id="latest-news">
+
+            <h2>♡ Latest Hijab News</h2>
+            <p>Informasi terbaru seputar dunia fashion hijab.</p>
+
+            <div class="berita">
+                <p class="tanggal">30 Oktober 2026 | Hijab Fashion</p>
+
+                <h3>Bisnis Hijab Semakin Menarik Perhatian Pasar</h3>
+                <p class="gambar">
+                    <img src="gambar/pashmina.jpg"
+                    width="180" style="max-width: 100%; height: auto;">
+                </p>
+                <p>
+                    Bisnis penjualan hijab menjadi salah satu
+                    peluang usaha di bidang fashion. Beragam
+                    pilihan model, warna, dan bahan membuat
+                    produk hijab memiliki banyak peminat.
+                    Penjualan juga semakin mudah dilakukan
+                    melalui media sosial dan toko online.
+                </p>
+            </div>
+
+            <div class="berita" id="popular">
+                <p class="tanggal">28 Oktober 2026 | New Collection</p>
+
+                <h3>Popular</h3>
+                <p class="gambar">
+                    <img src="gambar/hijabvoal.jpeg"
+                    width="180" style="max-width: 100%; height: auto;">
+                </p>
+                <p>
+                    Berbagai model hijab seperti voal dan pashmina menawarkan pilihan bagi konsumen. Bahan yang nyaman dan pilihan warna yang beragam menjadi pertimbangan dalam membeli produk hijab, dan voal menjadi produk paling diminati bulan ini.
+                </p>
+            </div>
+        
+            <div class="berita" id="about">
+                <h3>About Us</h3>
+                <p>Hijab Fashion By Nisa menyajikan informasi dan koleksi hijab terbaru untuk kamu.</p>
+                <p>Berawal dari kecintaan terhadap dunia fashion muslimah, Nisa ingin berbagi inspirasi bahwa hijab bukan hanya penutup kepala, tetapi juga cara untuk mengekspresikan kepribadian. Mulai dari pashmina, voal, hingga model terbaru lainnya, semuanya dipilih dengan bahan yang lembut dan warna yang cantik.</p>
+            </div>
+        </main>
+
+    </div>
+    <footer class="footer">
+        <p>© 2026 Hijab Fashion By Nisa | Style With Confidence ♡</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
